@@ -1,0 +1,894 @@
+# ypoyarko <ypoyarko@redhat.com>, 2015. #zanata
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-02-05 12:13+0000\n"
+"Last-Translator: ypoyarko <ypoyarko@redhat.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"X-Generator: Zanata 3.5.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: app/cases/views/attachLocalFile.html
+#: app/cases/views/attachmentsSection.html
+#: app/cases/views/new.html
+msgid "(More info)"
+msgstr "(подробнее)"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid "24x7 Contact:"
+msgstr "Круглосуточная связь:"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid "24x7 Support:"
+msgstr "Круглосуточная поддержка:"
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid ""
+"<span class=\"glyphicon glyphicon-plus\"></span>&nbsp;Open a New Support "
+"Case"
+msgstr ""
+"<span class=\"glyphicon glyphicon-plus\"></span>&nbsp;Создать запрос "
+"поддержки"
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid "<span class=\"glyphicon glyphicon-refresh\"></span>&nbsp;Select Log"
+msgstr "<span class=\"glyphicon glyphicon-refresh\"></span>&nbsp;Выбрать журнал"
+
+#: app/cases/views/detailsSection.html
+msgid "Account Name:"
+msgstr "Имя учетной записи:"
+
+#: app/cases/views/detailsSection.html
+msgid "Account Number:"
+msgstr "Номер учетной записи:"
+
+#: app/cases/controllers/accountSelect.js
+msgid "Account not found."
+msgstr "Учетная запись не найдена."
+
+#: app/cases/views/new.html
+msgid "Account:"
+msgstr "Учетная запись:"
+
+#: app/cases/views/attachLocalFile.html
+#: app/cases/views/attachProductLogs.html
+msgid "Add"
+msgstr "Добавить"
+
+#: app/cases/views/addCommentSection.html
+msgid "Add Comment"
+msgstr "Добавить комментарий"
+
+#: app/cases/views/detailsSection.html
+msgid "Advanced Mission Critical"
+msgstr "Программа обслуживания критических окружений"
+
+#: app/cases/services/caseService.js
+msgid "All Groups"
+msgstr "Все группы"
+
+#: app/cases/views/detailsSection.html
+msgid "Alternate Case ID:"
+msgstr "Дополнительный идентификатор запроса:"
+
+#: app/cases/views/attachProductLogs.html
+msgid "Attach Foreman logs:"
+msgstr "Добавить журналы Foreman:"
+
+#: app/cases/views/attachLocalFile.html
+msgid "Attach local file"
+msgstr "Добавить файл"
+
+#: app/cases/views/listAttachments.html
+msgid "Attached"
+msgstr "Добавлен"
+
+#: app/cases/views/listAttachments.html
+msgid "Attached By"
+msgstr "Добавил "
+
+#: app/cases/views/listAttachments.html
+msgid "Attached Files"
+msgstr "Добавленные файлы"
+
+#: app/cases/views/attachmentsSection.html
+msgid "Attachments"
+msgstr "Вложения"
+
+#: app/cases/views/new.html
+msgid "Attachments:"
+msgstr "Вложения:"
+
+#: app/log_viewer/views/navSideBar.html
+msgid "Available Log Files"
+msgstr "Доступные журналы"
+
+#: app/cases/views/defaultGroup.html
+msgid "Back"
+msgstr "Назад"
+
+#: app/cases/views/listBugzillas.html
+msgid "Bugzilla Number"
+msgstr "Номер Bugzilla"
+
+#: app/cases/views/listBugzillas.html
+msgid "Bugzilla Tickets"
+msgstr "Отчеты Bugzilla"
+
+#: app/security/views/login_form.html
+#: app/cases/views/createGroupModal.html
+#: app/cases/views/editGroup.html
+#: app/cases/views/requestManagementEscalationModal.html
+msgid "Cancel"
+msgstr "Отмена"
+
+#: app/cases/views/new.html
+msgid "Case Details"
+msgstr "Подробности"
+
+#: app/cases/views/commentsSection.html
+msgid "Case Discussion"
+msgstr "Обсуждение запроса"
+
+#: app/cases/views/createGroupModal.html
+#: app/cases/views/new.html
+msgid "Case Group:"
+msgstr "Группа:"
+
+#: app/cases/views/list.html
+msgid "Case ID"
+msgstr "Идентификатор"
+
+#: app/cases/views/detailsSection.html
+msgid "Case Type:"
+msgstr "Тип запроса:"
+
+#: app/cases/controllers/editGroup.js
+msgid "Case group successfully updated."
+msgstr "Группа настроена."
+
+#: app/cases/controllers/editGroup.js
+msgid "Case users successfully updated."
+msgstr "Пользователи настроены."
+
+#: app/cases/views/chatButton.html
+msgid "Chat offline"
+msgstr "Связь с поддержкой"
+
+#: app/cases/views/chatButton.html
+msgid "Chat with support"
+msgstr "Чат с поддержкой"
+
+#: app/common/views/treeview-selector.html
+msgid "Choose File(s) To Attach:"
+msgstr "Выберите файлы:"
+
+#: app/common/views/alert.html
+msgid "Close messages"
+msgstr "Закрыть сообщения"
+
+#: app/cases/controllers/statusSelect.js
+msgid "Closed"
+msgstr "Закрытые"
+
+#: app/cases/views/requestManagementEscalationModal.html
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: app/cases/views/createGroupModal.html
+msgid "Create Case Group"
+msgstr "Создать группу"
+
+#: app/cases/views/createGroupButton.html
+msgid "Create New Case Group"
+msgstr "Создать группу"
+
+#: app/cases/views/new.html
+msgid "Creating Case"
+msgstr "Создание запроса"
+
+#: app/cases/controllers/createGroupModal.js
+msgid "Creating group"
+msgstr "Создание группы"
+
+#: app/cases/views/listAttachments.html
+msgid "Delete"
+msgstr "Удалить"
+
+#: app/cases/views/deleteGroupButton.html
+msgid "Delete Group"
+msgstr "Удалить группу"
+
+#: app/cases/services/attachmentsService.js
+msgid "Deleting attachment:"
+msgstr "Удаление вложения:"
+
+#: app/cases/views/descriptionSection.html
+#: app/cases/views/listAttachments.html
+msgid "Description"
+msgstr "Описание"
+
+#: app/cases/views/new.html
+msgid "Description:"
+msgstr "Описание:"
+
+#: app/cases/views/detailsSection.html
+msgid "Details"
+msgstr "Свойства"
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid "Diagnose"
+msgstr "Диагностика"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid ""
+"Different support-level options might be available based on your account "
+"subscriptions. Your support level determines the type of response you can "
+"expect for your support case."
+msgstr ""
+"Уровень поддержки может отличаться в зависимости от того, какие подписки "
+"были вами приобретены."
+
+#: app/cases/views/addCommentSection.html
+msgid "Draft saved"
+msgstr "Черновик сохранен"
+
+#: app/cases/views/emailNotifySelect.html
+msgid "Email Notification Recipients"
+msgstr "Получатели уведомлений"
+
+#: app/search/views/resultDetail.html
+msgid "Environment"
+msgstr "Окружение"
+
+#: app/cases/controllers/attachmentsSection.js
+msgid "Error: Failed to upload attachment."
+msgstr "Не удалось добавить вложение."
+
+#: app/cases/controllers/attachmentsSection.js
+#: app/cases/controllers/new.js
+msgid "Error: Failed to upload attachment. Message:"
+msgstr "Не удалось добавить вложение: "
+
+#: app/cases/views/exportCSVButton.html
+msgid "Export All as CSV"
+msgstr "Экспорт в CSV"
+
+#: app/cases/views/exportCSVButton.html
+msgid "Exporting CSV..."
+msgstr "Экспорт в CSV..."
+
+#: app/cases/services/attachmentsService.js
+msgid "Failed to upload attachment"
+msgstr "Не удалось добавить вложение."
+
+#: app/cases/views/attachLocalFile.html
+#: app/cases/views/attachmentsSection.html
+#: app/cases/views/new.html
+msgid "File description"
+msgstr "Описание файла"
+
+#: app/cases/views/attachLocalFile.html
+#: app/cases/views/attachmentsSection.html
+#: app/cases/views/new.html
+msgid ""
+"File names must be less than 80 characters. Maximum file size for web-"
+"uploaded attachments is 1 GB. Please FTP larger files to dropbox.redhat.com."
+msgstr ""
+"Имя файла не должно содержать больше 80 знаков, а размер вложения не может "
+"превышать 1 ГБ. Для больших файлов рекомендуется использовать dropbox.redhat."
+"com."
+
+#: app/cases/views/listAttachments.html
+msgid "Filename"
+msgstr "Имя файла"
+
+#: app/cases/views/listNewAttachments.html
+msgid "Files to Attach"
+msgstr "Файлы"
+
+#: app/cases/views/listFilter.html
+msgid "Filtering by case groups helps you find related cases."
+msgstr "Фильтрация по группам вернет однотипные запросы."
+
+#: app/cases/views/editGroup.html
+msgid "First Name"
+msgstr "Имя"
+
+#: app/cases/views/search.html
+msgid "Group"
+msgstr "Группа"
+
+#: app/cases/views/detailsSection.html
+msgid "Group:"
+msgstr "Группа:"
+
+#: app/cases/views/403.html
+msgid ""
+"If you believe you should have permission to view this resource, please <a "
+"href=\"/support/contact/customerService.html\">contact Customer Service</a> "
+"for assistance. Your Red Hat login might not be associated with the right "
+"account for your organization, or there might be an issue with your "
+"subscription. Either way, Customer Service should be able to help you "
+"resolve the problem."
+msgstr ""
+"Если вы считаете, что у вас должен быть доступ к этой странице, обратитесь в "
+"<a href=\"/support/contact/customerService.html\">службу поддержки</a>. "
+"Возможно, ваше имя пользователя Red Hat не было связано с нужной учетной "
+"записью, или возникли проблемы с подпиской. Служба поддержки поможет "
+"ответить на эти вопросы."
+
+#: app/cases/views/requestManagementEscalationModal.html
+msgid ""
+"If you feel the issue has become more severe or the case should be a higher "
+"priority, please provide a detailed comment, and the case will be reviewed "
+"by a support manager."
+msgstr ""
+"Если вы считаете, что ваш запрос должен иметь высокий приоритет, добавьте "
+"комментарий и объясните причину."
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid ""
+"In the event that you would still like to open a support case, select 'Open "
+"a New Support Case'. The case will be pre-populated with the portion of the "
+"log previously selected."
+msgstr ""
+"Если вы все же хотите открыть запрос, нажмите «Создать запрос». Информация "
+"из выбранного журнала будет добавлена автоматически."
+
+#: app/cases/views/addCommentSection.html
+msgid "Is Public:"
+msgstr "Общий доступ:"
+
+#: app/cases/views/editGroup.html
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: app/cases/views/detailsSection.html
+msgid "Last Updated:"
+msgstr "Обновлен:"
+
+#: app/cases/views/requestManagementEscalationModal.html
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid "Log File Viewer"
+msgstr "Просмотр журналов"
+
+#: app/security/views/login_status.html
+msgid "Log In"
+msgstr "Вход"
+
+#: app/security/views/login_status.html
+msgid "Log Out"
+msgstr "Выход"
+
+#: app/security/views/login_status.html
+msgid "Logged into the Red Hat Customer Portal as"
+msgstr "Пользователь:"
+
+#: app/common/header.module.js
+#: app/i18n/placeholder.html
+msgid "Logs"
+msgstr "Журналы"
+
+#: app/common/header.module.js
+#: app/cases/services/caseService.js
+msgid "Manage Case Groups"
+msgstr "Управление группами запросов"
+
+#: app/cases/views/group.html
+#: app/common/header.module.js
+msgid "Manage Default Case Groups"
+msgstr "Исходные группы запросов"
+
+#: app/cases/views/accountSelect.html
+msgid "My Account"
+msgstr "Моя учетная запись"
+
+#: app/i18n/placeholder.html
+msgid "My Cases"
+msgstr "Мои запросы"
+
+#: app/cases/views/groupList.html
+msgid "Name"
+msgstr "Имя"
+
+#: app/common/header.module.js
+msgid "New Support Case"
+msgstr "Новый запрос поддержки"
+
+#: app/cases/views/new.html
+msgid "Next"
+msgstr "Вперед"
+
+#: app/cases/views/listAttachments.html
+msgid "No attachments added"
+msgstr "Нет вложений"
+
+#: app/cases/views/compactCaseList.html
+#: app/cases/views/list.html
+msgid "No cases found with given filters."
+msgstr "Нет результатов."
+
+#: app/cases/views/search.html
+msgid "No cases found with given search criteria."
+msgstr "Нет результатов."
+
+#: app/cases/views/groupList.html
+msgid "No groups found."
+msgstr "Группы не найдены."
+
+#: app/cases/views/listBugzillas.html
+msgid "No linked bugzillas"
+msgstr "Нет запросов Bugzilla."
+
+#: app/cases/views/ownerSelect.html
+msgid "No match found"
+msgstr "Нет совпадений"
+
+#: app/cases/views/newRecommendationsSection.html
+msgid "No recommendations are available."
+msgstr "Нет рекомендаций."
+
+#: app/search/services/searchResultsService.js
+msgid "No solutions found."
+msgstr "Нет решений."
+
+#: app/cases/views/404.html
+msgid "Not Found"
+msgstr "Нет результатов."
+
+#: app/security/views/login_status.html
+msgid "Not Logged into the Red Hat Customer Portal"
+msgstr "Не авторизован на портале пользователей"
+
+#: app/security/views/login_form.html
+msgid "Note:"
+msgstr "Примечание:"
+
+#: app/cases/views/detailsSection.html
+msgid "Notes:"
+msgstr "Примечания:"
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid ""
+"Once you have selected your log file then you may diagnose any part of the "
+"log file and clicking the 'Red Hat Diagnose' button. This will then display "
+"relevant articles and solutons from our Red Hat Knowledge base."
+msgstr ""
+"Нажмите кнопку «Диагностика Red Hat» для просмотра статей и решений из базы "
+"данных Red Hat."
+
+#: app/cases/controllers/statusSelect.js
+msgid "Open"
+msgstr "Открытые"
+
+#: app/i18n/placeholder.html
+msgid "Open New Case"
+msgstr "Создать запрос"
+
+#: app/search/views/accordion_search_results.html
+#: app/cases/views/list.html
+#: app/cases/views/search.html
+msgid "Open a New Support Case"
+msgstr "Открыть новый запрос"
+
+#: app/cases/controllers/statusSelect.js
+msgid "Open and Closed"
+msgstr "Открытые и закрытые"
+
+#: app/cases/views/list.html
+msgid "Opened"
+msgstr "Открытые"
+
+#: app/cases/views/detailsSection.html
+msgid "Opened:"
+msgstr "Открытые:"
+
+#: app/cases/views/list.html
+#: app/cases/views/search.html
+msgid "Owner"
+msgstr "Владелец"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid "Owner:"
+msgstr "Владелец:"
+
+#: app/security/views/login_form.html
+msgid "Password"
+msgstr "Пароль"
+
+#: app/log_viewer/controllers/DropdownCtrl.js
+msgid "Please Select the Machine"
+msgstr "Выберите компьютер"
+
+#: app/cases/views/new.html
+msgid "Previous"
+msgstr "Назад"
+
+#: app/cases/views/search.html
+msgid "Product"
+msgstr "Продукт"
+
+#: app/cases/views/new.html
+msgid "Product & Topic"
+msgstr "Продукт и тема"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid "Product Version:"
+msgstr "Версия:"
+
+#: app/cases/views/list.html
+msgid "Product/Version"
+msgstr "Продукт и версия"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid "Product:"
+msgstr "Продукт:"
+
+#: app/search/views/accordion_search_results.html
+#: app/search/views/list_search_results.html
+#: app/cases/views/recommendationsSection.html
+msgid "Recommendations"
+msgstr "Рекомендации"
+
+#: app/security/views/login_form.html
+msgid ""
+"Red Hat Access makes it easy for you to self-solve issues, diagnose "
+"problems, and engage with us via the Red Hat Customer Portal. To access Red "
+"Hat Customer Portal resources, you must enter valid portal credentials."
+msgstr ""
+"Red Hat Access облегчает диагностику конфликтов и предоставляет каналы связи "
+"с Red Hat через портал пользователей. Для доступа к ресурсам портала надо "
+"будет авторизоваться."
+
+#: app/security/views/login_form.html
+msgid ""
+"Red Hat Customer Portal credentials differ from the credentials used to log "
+"into this product."
+msgstr ""
+"Имя и пароль доступа к порталу отличаются от имени пользователя и пароля, "
+"связанных с продуктом."
+
+#: app/log_viewer/views/logTabs.html
+msgid "Red Hat Diagnose"
+msgstr "Диагностика Red Hat"
+
+#: app/security/views/login_form.html
+msgid "Red Hat Login"
+msgstr "Имя пользователя Red Hat"
+
+#: app/cases/views/detailsSection.html
+msgid "Red Hat Owner:"
+msgstr "Владелец:"
+
+#: app/cases/views/commentsSection.html
+msgid "Reply"
+msgstr "Ответить"
+
+#: app/cases/views/commentsSection.html
+#: app/cases/views/requestManagementEscalationModal.html
+msgid "Request Management Escalation"
+msgstr "Связаться с менеджером"
+
+#: app/search/views/resultDetail.html
+msgid "Resolution"
+msgstr "Решение"
+
+#: app/cases/views/createGroupModal.html
+msgid "Save"
+msgstr "Сохранить"
+
+#: app/cases/views/defaultGroup.html
+#: app/cases/views/editGroup.html
+msgid "Save Group"
+msgstr "Сохранить"
+
+#: app/cases/views/addCommentSection.html
+msgid "Saving draft..."
+msgstr "Сохранение черновика..."
+
+#: app/search/views/search_form.html
+#: app/cases/views/listFilter.html
+#: app/cases/views/searchBox.html
+#: app/common/header.module.js
+#: app/i18n/placeholder.html
+msgid "Search"
+msgstr "Поиск"
+
+#: app/search/views/search_form.html
+msgid "Search Articles and Solutions"
+msgstr "Поиск статей и решений"
+
+#: app/common/header.module.js
+msgid "Search Support Case"
+msgstr "Поиск запросов поддержки"
+
+#: app/cases/views/search.html
+msgid "Searching..."
+msgstr "Поиск..."
+
+#: app/log_viewer/views/navSideBar.html
+msgid "Select File"
+msgstr "Выбрать файл"
+
+#: app/cases/views/attachmentsSection.html
+msgid "Server File(s) To Attach:"
+msgstr "Файлы на сервере:"
+
+#: app/cases/views/list.html
+#: app/cases/views/search.html
+msgid "Severity"
+msgstr "Приоритет"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+#: app/cases/views/searchResult.html
+msgid "Severity:"
+msgstr "Приоритет:"
+
+#: app/security/views/login_form.html
+msgid "Sign in"
+msgstr "Вход"
+
+#: app/security/views/login_form.html
+msgid "Sign into the Red Hat Customer Portal"
+msgstr "Авторизация на портале пользователей Red Hat"
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid ""
+"Simply navigate to and select a log file from the list on the left and click "
+"the 'Select File' button."
+msgstr "Выберите журнал из списка и нажмите «Выбрать файл»."
+
+#: app/cases/views/listAttachments.html
+msgid "Size"
+msgstr "Размер"
+
+#: app/cases/views/list.html
+#: app/cases/views/search.html
+msgid "Status"
+msgstr "Статус"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/searchResult.html
+msgid "Status:"
+msgstr "Статус:"
+
+#: app/cases/views/new.html
+msgid "Submit"
+msgstr "Отправить"
+
+#: app/cases/views/requestManagementEscalationModal.html
+msgid "Submit Request"
+msgstr "Отправить запрос"
+
+#: app/cases/controllers/new.js
+msgid "Successfully created case number"
+msgstr "Создан запрос под номером "
+
+#: app/cases/controllers/createGroupModal.js
+msgid "Successfully created group"
+msgstr "Создана группа:"
+
+#: app/cases/services/attachmentsService.js
+msgid "Successfully deleted attachment:"
+msgstr "Вложение удалено:"
+
+#: app/cases/controllers/deleteGroupButton.js
+msgid "Successfully deleted group"
+msgstr "Группа удалена:"
+
+#: app/cases/controllers/deleteGroupButton.js
+msgid "Successfully deleted groups."
+msgstr "Группы удалены"
+
+#: app/cases/services/attachmentsService.js
+msgid "Successfully uploaded attachment"
+msgstr "Вложение добавлено: "
+
+#: app/cases/controllers/attachmentsSection.js
+msgid "Successfully uploaded attachment."
+msgstr "Вложение добавлено."
+
+#: app/cases/views/list.html
+msgid "Summary"
+msgstr "Тема"
+
+#: app/cases/views/listBugzillas.html
+msgid "Summary of Request"
+msgstr "Краткое описание запроса"
+
+#: app/cases/views/new.html
+msgid "Summary:"
+msgstr "Тема:"
+
+#: app/i18n/placeholder.html
+msgid "Support"
+msgstr "Поддержка"
+
+#: app/common/header.module.js
+msgid "Support Cases"
+msgstr "Запросы поддержки"
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid "Support Level:"
+msgstr "Уровень поддержки:"
+
+#: app/cases/views/403.html
+msgid "Support Subscription Required"
+msgstr "Требуется действительная подписка"
+
+#: app/cases/views/403.html
+msgid ""
+"The credentials you provided are valid, but you do not have <b>direct "
+"support from Red Hat.</b>"
+msgstr ""
+"Учетные данные действительны, но нет доступа к <b>прямой поддержке Red Hat</"
+"b>."
+
+#: app/log_viewer/views/logsInstructionPane.html
+msgid ""
+"The log file viewer gives the ability to diagnose application logs as well "
+"as file a support case with Red Hat Global Support Services."
+msgstr ""
+"В окне просмотра можно проверить журналы программ и создать запрос "
+"обслуживания в службе поддержки Red Hat."
+
+#: app/cases/views/404.html
+msgid ""
+"The page you are looking for is not here. It might have been moved, removed, "
+"or had its name and address changed. It might otherwise be temporarily "
+"unavailable for technical reasons."
+msgstr ""
+"Страница недоступна. Возможно, ее адрес изменился, она была перемещена или "
+"недоступна по техническим причинам."
+
+#: app/cases/views/detailsSection.html
+msgid ""
+"This field allows Red Hat customers to make private notes pertinent to their "
+"case or account.  Contents of this field are not visible to  support "
+"professionals within Red Hat, and submitting updates to this field will not "
+"generate any notifications or case comments."
+msgstr ""
+"Это поле содержит закрытые комментарии, которые будут доступны только вам. "
+"Специалисты поддержки Red Hat их не увидят и не будут получать уведомления о "
+"добавлении новой информации."
+
+#: app/cases/views/new.html
+msgid ""
+"This release is now retired, please refer to the recommended FAQ prior to "
+"filing a case"
+msgstr ""
+"Жизненный цикл этого релиза подошел к концу.  Прежде чем создать запрос, "
+"ознакомьтесь с секцией вопросов и ответов."
+
+#: app/search/views/list_search_results.html
+msgid "To view a recommendation, click on it."
+msgstr "Щелкните на рекомендации для ее просмотра."
+
+#: app/cases/views/search.html
+msgid "Type"
+msgstr "Тип"
+
+#: app/common/services/strataService.js
+msgid "Unauthorized."
+msgstr "Не авторизован."
+
+#: app/cases/services/caseService.js
+msgid "Ungrouped Case"
+msgstr "Нет"
+
+#: app/cases/services/caseService.js
+msgid "Ungrouped Cases"
+msgstr "Несгруппированные запросы"
+
+#: app/cases/views/detailsSection.html
+msgid "Update Details"
+msgstr "Обновить свойства"
+
+#: app/cases/views/list.html
+msgid "Updated"
+msgstr "Обновлено"
+
+#: app/cases/views/searchResult.html
+msgid "Updated:"
+msgstr "Обновлено:"
+
+#: app/cases/views/attachmentsSection.html
+msgid "Upload Attachments"
+msgstr "Добавить вложения"
+
+#: app/cases/controllers/attachmentsSection.js
+msgid "Uploading attachment..."
+msgstr "Добавление вложения..."
+
+#: app/cases/services/attachmentsService.js
+msgid "Uploading attachments..."
+msgstr "Добавление вложений..."
+
+#: app/cases/views/editGroup.html
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: app/cases/views/list.html
+msgid "User does not have permissions to manage cases."
+msgstr "У пользователя недостаточно разрешений для управления запросами."
+
+#: app/cases/views/defaultGroup.html
+msgid "User does not have permissions to set default case group."
+msgstr "У пользователя недостаточно разрешений для настройки исходной группы."
+
+#: app/cases/controllers/editGroup.js
+msgid "User does not have proper credentials to manage case groups."
+msgstr ""
+"У пользователя недостаточно разрешений для управления группами запросов."
+
+#: app/cases/views/detailsSection.html
+#: app/cases/views/new.html
+msgid "View Production Support Service Level Agreement"
+msgstr "Соглашение об обслуживании"
+
+#: app/cases/views/recommendationsSection.html
+msgid "View full article in new window"
+msgstr "Открыть статью в новом окне"
+
+#: app/common/header.module.js
+msgid "View/Modify Case"
+msgstr "Просмотреть/ Изменить запрос"
+
+#: app/cases/views/commentsSection.html
+msgid ""
+"Would you like a Red Hat support manager to contact you regarding this case?"
+msgstr "Вы согласны, чтобы менеджер службы поддержки Red Hat с вами связался?"
+
+#: app/common/header.module.js
+msgid "You have successfully logged out of the Red Hat Customer Portal."
+msgstr "Сеанс завершен."
+
+#: app/cases/views/addCommentSection.html
+#: app/cases/views/detailsSection.html
+msgid "You have used"
+msgstr "Вы использовали"
+
+#: app/search/services/searchResultsService.js
+msgid "You must be logged in to use this functionality."
+msgstr "Для выполнения этой операции необходимо авторизоваться."
+
+#: app/cases/controllers/attachLocalFile.js
+msgid ""
+"cannot be attached because it is larger the 1 GB. Please FTP large files to "
+"dropbox.redhat.com."
+msgstr ""
+"не может быть добавлен, так как его размер превышает 1 ГБ. Для больших "
+"файлов используйте dropbox.redhat.com."
+
+#: app/cases/views/recommendationsSection.html
+msgid "handpicked"
+msgstr "подобрано"
+
+#: app/cases/views/detailsSection.html
+msgid "of the 255 maximum character size."
+msgstr "из допустимых 255 знаков."
+
+#: app/cases/views/addCommentSection.html
+msgid "of the 32K maximum description size."
+msgstr "из допустимых 32 КБ."
+
+#: app/cases/services/attachmentsService.js
+msgid "to case"
+msgstr "к запросу"

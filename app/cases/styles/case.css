@@ -1,0 +1,473 @@
+th {
+    font-weight: normal;
+    color: #777;
+}
+
+.details-table > tbody > tr > th,
+.details-table > tbody > tr > td {
+    padding: 8px 0;
+    border-top: none;
+}
+
+.rha-section-header {
+    padding: 0;
+    border-bottom: solid 1px;
+    border-color: grey;
+}
+
+.container-fluid {
+    /*padding: 0 15px;*/
+}
+
+.rha-bold {
+    font-weight: bold;
+}
+
+.rha-create-field {
+    padding-bottom: 8px;
+}
+
+.rha-bottom-border {
+    margin-bottom: 14px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.rha-create-case-section {
+    padding: 10px 0;
+}
+
+.rha-col-no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.rha-details-table-header {
+    width: 40%;
+}
+
+.rha-side-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#redhat-access-case .has-feedback .form-control-feedback {
+    right: 10px;
+    top: 0px;
+}
+
+div#redhat-access-case .form-group {
+    margin-bottom: 0px;
+}
+
+div#redhat-access-case .table > tbody > tr > th {
+    vertical-align: middle;
+}
+
+div#redhat-access-case .glyphicon-asterisk {
+    color: #428bca;
+}
+
+div#redhat-access-case a {
+    cursor: pointer;
+}
+
+div#redhat-access-case div .panel-body {
+    overflow: auto !important;
+}
+
+.rha-hidden {
+    display: none;
+}
+
+.container-offset {
+    padding: 0 15px;
+}
+
+div#rha-case-details .table {
+    margin-bottom: 0px;
+}
+
+div.server-attach-header{
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+div#redhat-access-compact-list .list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top: none;
+}
+
+div#redhat-access-compact-list .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+div#redhat-access-compact-list .list-group-item {
+    border-right: none;
+}
+
+div#rha-case-search-result .detail-name {
+    color: #999;
+}
+
+div#rha-case-search-result .detail-value {
+
+}
+
+div#rha-case-search-result .status {
+    font-weight: bold;
+}
+
+div#rha-case-search-result .redhat {
+    color: #7ab800
+}
+
+div#rha-case-search-result .customer {
+    color: #c00;
+}
+
+div#rha-case-search-result .closed {
+    color: #666;
+}
+
+div#rha-case-search label {
+    font-weight: normal;
+    color: #999;
+}
+
+div#rha-case-search-result .comment-tip {
+    position: absolute;
+    left: 40px;
+    bottom: 0px;
+    display: block;
+    width: 17px;
+    height: 42px;
+    clip: rect(21px, 17px, 42px, 0px);
+    background: url(../img/g_comment-tip.png) no-repeat 0 0;
+}
+
+div#rha-case-search-result .well {
+    border: 1px solid #ccc;
+    background-color: #efefef;
+}
+
+div#rha-case-search-result .comment-user {
+    position: absolute;
+    left: 70px;
+    bottom: -32px;
+    padding-left: 40px;
+}
+
+div#rha-case-search-result .comment-user div {
+    position: static;
+    display: block;
+}
+
+div#rha-case-search-result .avatar {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: url(../img/g_comment-avatar.png) no-repeat 0 0;
+}
+div#rha-select-loading-indicator .bootstrap {
+    height: 34px;
+}
+div#rha-select-loading-indicator .select2 {
+    height: 26px;
+}
+div#rha-case-search-result .hascomment {
+    padding-bottom: 40px;
+}
+
+div#rha-case-search-result .hover:hover {
+    background-color: #f5f5f5;
+}
+
+div#rha-case-search .select2-search-choice-close {
+    display: block !important;
+    top: 6px !important;
+}
+
+div#rha-case-search .select2-chosen {
+    margin-right: 40px !important;
+}
+
+.select2-disabled {
+    background: white !important;
+    color: #cccccc;
+}
+
+.pagination {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+div#rha-create-group-modal label {
+    font-weight: normal;
+}
+
+div#rha-recommendation-section .not-pinned {
+    background: url(../img/bg-recommendations.png) no-repeat 0 0;
+    height: 16px;
+    width: 15px;
+    display: block;
+}
+
+div#rha-recommendation-section .pinned {
+    background: url(../img/bg-recommendations.png) no-repeat 0 0;
+    height: 16px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -16px;
+    overflow: hidden;
+    clip: rect(0px, 30px, 16px, 15px);
+}
+
+div#rha-recommendation-section .hand-picked {
+    background: url(../img/bg-recommendations.png) no-repeat 0 -27px;
+    color: #078700;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    margin: 0 0 0 3px;
+    padding: 0 0 0 13px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.rha-comment-link {
+    margin-top: 10px;
+}
+.rha-search-spinner-sm {
+    padding: 1px 1px 1px 1px;
+    background-image: url("../img/throbber_dickie_small.gif");
+    background-repeat: no-repeat;
+    display:inline-block;
+    width:11px;
+    height:11px;
+}
+
+.pcmTextBlock {
+    color: #222;
+    font-family: "Courier New", Courier, "DejaVu Sans Mono", monospace;
+    font-size: 1em;
+    white-space: pre-wrap;      /* current browsers */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    word-wrap: normal;
+    word-break: normal;
+}
+
+.amc {
+    background: #f32827;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 46.15%;
+    line-height: 100%;
+    margin: 0 0 0 4px;
+    padding: 4px 7px;
+    vertical-align: 5px;
+}
+
+.versionSunsetMessage {
+    margin-top: 1em;
+    white-space: normal;
+    font-size: 0.846em;
+}
+
+.recommendations-inner {
+    position: relative;
+    padding: 10px 0;
+}
+
+.snippet {
+    word-wrap: break-word;
+}
+
+.recommendations {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+.recommendations li {
+  	position: relative;
+    margin-bottom: 12px;
+}
+
+.recommendations li .meta {
+    padding-top: .25em;
+    font-size: 0.923em;
+}
+
+.recommendations_products,
+.recommendations_tags {
+    display: inline-block;
+    *display: inline;
+    margin: 0 4px .5em 0;
+    padding: 0 8px;
+    color: #666;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 0.917em;
+    zoom: 1;
+    border: 1px solid #dedede;
+}
+
+.recommendations li .icon-solution {
+    position: absolute;
+    left: -30px;
+	  top: 0;
+}
+
+.private {
+    background-color: #fde5e5;
+    color: #c92b22;
+    display: inline-block;
+}
+
+.group-select-help {
+    position: absolute;
+    right: 0;
+    padding-left: 5px;
+    padding-top: 9px;
+}
+
+.group-select {
+    margin-right: 20px;
+}
+
+.progressBarWrap {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    margin: 0 5px;
+    width: 100px;
+    height: 1.2em;
+    background: #fff;
+    vertical-align: middle;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    overflow: hidden;
+}
+
+.progressBarWrapNotes {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    margin: 0 5px;
+    width: 25px;
+    height: 1.2em;
+    background: #fff;
+    vertical-align: middle;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progressBar {
+    position: absolute;
+        left: 0;
+        top: 0;
+    height: 100%;
+    width: 0;
+    background: #83bce7;
+}
+
+.progressCount {
+    position: absolute;
+        left: 0;
+        top: 0;
+    width: 100%;
+    text-align:center ;
+    color: #333;
+    line-height: 1.2em;
+}
+
+.commentReply {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: auto;
+    top: auto;
+    color: #4e9fdd;
+    padding: 3px 8px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.commentReply:hover {
+    text-decoration: none;
+    color: #06c;
+    background: #fff;
+}
+
+.center {
+    text-align:center ;
+}
+
+.fun {
+    background: url(https://access.redhat.com/webassets/avalon/g/bg-create-case.png) no-repeat;
+    display: block;
+    height: 18px;
+    margin: 0 0 0 -9px;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    width: 18px;
+}
+
+.no-fun {
+    background: url(https://access.redhat.com/webassets/avalon/g/bg-create-case.png) no-repeat;
+    display: block;
+    height: 18px;
+    margin: 0 0 0 -9px;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    width: 18px;
+    background-position: -36px 0
+}
+
+.full-border {
+    padding-bottom: 10px;
+    border: 1px solid #cccccc;
+}
+
+.partial-border {
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.divider{
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
+
+.console-error{
+    color: #c00;
+}
+
+#redhat-access-case table {
+    font-size: 14px;
+}

@@ -1,0 +1,9 @@
+div#rha-select-loading-indicator
+  progressbar.progress-striped.active(
+    ng-show='loading',
+    max='1',
+    value='1',
+    animate='false',
+    ng-class='{select2: type === "select2", bootstrap: type === "bootstrap"}'
+    style='margin-bottom: 0px;')
+  div(ng-transclude, ng-hide='loading')
