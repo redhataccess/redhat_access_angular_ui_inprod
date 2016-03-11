@@ -97,6 +97,10 @@ angular.module('RedhatAccess.logViewer').controller('TabsDemoCtrl', [
             var fileNameForRefresh = this.$parent.tab.longTitle;
             var hostForRefresh = null;
             var splitNameForRefresh = fileNameForRefresh.split(':');
+            if (splitNameForRefresh.length == 1){
+                //we did not a have a machine
+                splitNameForRefresh.unshift("None");
+            }
             if (splitNameForRefresh[0] && splitNameForRefresh[1]) {
                 $scope.isLoading = true;
                 hostForRefresh = splitNameForRefresh[0];
