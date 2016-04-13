@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/redhataccess/redhat_access_angular_ui.svg?branch=master)](https://travis-ci.org/redhataccess/redhat_access_angular_ui)  
+[![Build Status](https://travis-ci.org/redhataccess/redhat_access_angular_ui_inprod.svg?branch=master)](https://travis-ci.org/redhataccess/redhat_access_angular_ui_inprod)
 
 This is a legacy in prod clone of https://github.com/redhataccess/redhat_access_angular_ui. Why did we clone instead of just using a branch in the original repo? Its a long story.....
 
