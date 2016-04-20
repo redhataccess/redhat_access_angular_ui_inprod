@@ -1,0 +1,9 @@
+/* Global/default styles */
+
+/*
+ * A hand-cursor is not shown if,
+ * <a> doesn't have href attribute
+ */
+a {
+ cursor: pointer;
+}
