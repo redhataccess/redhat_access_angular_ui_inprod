@@ -185,6 +185,10 @@ angular.module('RedhatAccess.security').factory('securityService', [
                             function resetStatus() {
                                 $scope.status.authenticating = false;
                                 isLoginDisplayed = false;
+
+                                // reset input fields
+                                $scope.user.user = null;
+                                $scope.user.password = null;
                             }
                             $scope.modalOptions = tempModalOptions;
                             $scope.modalOptions.keyDown = function($event, onEnter) {
@@ -214,10 +218,10 @@ angular.module('RedhatAccess.security').factory('securityService', [
                                         function(error) {
                                             if ($scope.$root.$$phase !== '$apply' && $scope.$root.$$phase !== '$digest') {
                                                 $scope.$apply(function() {
-                                                    $scope.authError = 'Login Failed!';
+                                                    $scope.authError = 'Username or password was invalid';
                                                 });
                                             } else {
-                                                $scope.authError = 'Login Failed!';
+                                                $scope.authError = 'Username or password was invalid';
                                             }
                                             resetStatus();
                                         }
